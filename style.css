@@ -94,7 +94,7 @@ b{
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 149px;
     height: calc(100vh - 80px);
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -205,6 +205,7 @@ button:hover{
 .imgbox img{
     position: relative;
     height: 100%;
+     width: 117%;
   
     top: 10px;
     right: 50px;

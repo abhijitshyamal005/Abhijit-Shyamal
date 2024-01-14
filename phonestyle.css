@@ -3,10 +3,7 @@
     html{
         scroll-behavior: smooth;
         background-color: #f3f5f8;
-     Zoom:78%;
-       
-       
-        
+        zoom: 78%;    
     }
    nav{
     display: -webkit-box;
@@ -34,7 +31,7 @@
         letter-spacing: 3px;
         cursor: pointer;
         text-transform: uppercase;
-        margin-left: 21%;
+        margin-left: 1.7em;
         border-bottom: 2px solid #7f00ff;
         border-radius: 30%;
     } 
@@ -43,7 +40,7 @@
         color: #7f00ff;
     }
     .blog-content b{
-        font-size: 90px !important;
+        font-size:1em ;
     }
     .navItem{
         display: -webkit-box;
@@ -53,14 +50,16 @@
     }
     .navItem li{
         list-style: none;
-        margin: 0 15px;
+       
         display: contents;
     }
     .navItem li a{
-        font-size: 25px;
+        margin-top: 1em;
+        font-size: 1.5em;
         color: #3d535f;
-        letter-spacing: 3px;
+        
         padding: 20px;
+        font-weight: 600;
         text-decoration: none;
         text-transform: capitalize;
     }
@@ -71,9 +70,17 @@
         display: none;
         
     }
+    .container{
+        width: 100%;
+        min-height: 100vh;
+        background-color: #f3f5f8;
+        padding: 0;
+        margin: 0;
+    
+    }
     .wrapper{
-        margin-top: 20%;
-        margin-left: 2rem;
+        margin-top: 10rem;
+        margin-left: 1rem;
        
     }
     .wrapper::before{
@@ -93,7 +100,7 @@
                 animation: object1 6s linear infinite;
     }
     .wrapper::after{
-        margin-left: 40%;
+        
         position: absolute;
         content: '';
         border-radius: 50%;
@@ -110,7 +117,7 @@
     .topline{
         display: block;
         position: relative;
-        font-size: 25px;
+        font-size: 2em;
         letter-spacing: 5px;
         color: #3d535f;
     }
@@ -124,7 +131,7 @@
     }
     h1{
         display: block;
-        font-size: 4em;
+        font-size: 3em;
         font-weight: 900;
         color: #3d535f;
         margin-top: 10px;
@@ -135,15 +142,16 @@
     
     }
     p{
-        display: block;
+        display: inline-block;;
         width: 90%;
-        font-size:2em;
+        font-size:1.5em;
         color: #3d535f;
+        margin-right: 2em;
     }
     .btns{
         width: 100%;
         position: relative;
-        left: 150px;
+        
         
     }
     .btns a{
@@ -177,7 +185,7 @@
         height: 700px;
         width: auto;
         border-radius: 50%;
-        margin-left: 3rem;
+        margin-left: 1rem;
        margin-top: -15%;
        
         
@@ -243,15 +251,16 @@
     
     }
     .about-content h1{
-        margin-left: 22%;
+        margin-left: 2.2em;
     }
     .about-content h3{
-        margin-left: 32%;
+        margin-left: 2.2em;
         margin-top: -10%;
     }
     .about-content p{
         text-align: center;
-        margin-left: 3%;
+        font-size: 1.5rem;
+        padding-left: .5em;
         
     }
     .title{
@@ -270,8 +279,8 @@
         margin-right: 40px;
     }
     .row p{
-        padding-top: 10px !important;
-        padding-left: 1em;
+        font-size: 1.4em;
+        padding-left: .2em;
     }
     .course-col{
         -ms-flex-preferred-size: 31%;
@@ -298,10 +307,7 @@
         cursor: pointer;
     
     }
-    .blog-content h1{
-        margin-left: 22%;
-
-    }
+   
     .comment-box{
     
         margin: 50px 0;
@@ -326,9 +332,11 @@
          margin: 10px 0;
     }
     .blog-content h1 {
-        padding-left: 40%;
+        margin-left: 2.2em;
+        
     
     }
+   
     .blog-content p {
        
         -webkit-box-pack: center;

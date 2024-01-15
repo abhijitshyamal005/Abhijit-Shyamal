@@ -115,11 +115,12 @@
                 animation: object2 6s linear infinite;
     }
     .topline{
-        display: block;
+   display: block;
         position: relative;
-        font-size: 2em;
-        letter-spacing: 5px;
+        font-size: 1.5em;
+        letter-spacing: 0.2em;
         color: #3d535f;
+        font-weight: 800;
     }
     .topline::after{
         position: absolute;

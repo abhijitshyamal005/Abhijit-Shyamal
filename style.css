@@ -73,7 +73,7 @@ b{
 .navItem li{
     list-style: none;
     margin: 0 15px;
- font-weight: 800;
+ font-weight: 500;
  
 }
 .navItem li a{
@@ -146,6 +146,8 @@ b{
     font-size: 25px;
     letter-spacing: 5px;
     color: #3d535f;
+ font-weight: 300;
+ 
 }
 .topline::after{
     position: absolute;

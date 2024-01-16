@@ -355,6 +355,8 @@ box-shadow:  15px 15px 30px #6c00d9,
     .footer{
         background-color: #7e1be1;
         height: 200px;
+      border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
     }
     .bh a{
         -webkit-box-align: center;

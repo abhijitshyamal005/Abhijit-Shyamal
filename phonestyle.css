@@ -18,7 +18,9 @@
    }
     .navItem a:hover{
         border-bottom: 2px solid #7e1be1;
-        border-radius: 30px;    
+        border-radius: 30px;   
+     box-shadow:  15px 15px 30px #6c00d9,
+                 0 0 0 #9200ff; 
     
     }
     .logo{

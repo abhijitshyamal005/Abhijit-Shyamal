@@ -175,7 +175,10 @@
                 box-shadow: 0 15px 10px rgba(0, 0, 0, 0.59);
     }
     button:hover{
-        background-color: #7f00ff;
+         border-radius: 50px;
+background: linear-gradient(145deg, #7200e6, #8800ff);
+box-shadow:  15px 15px 30px #6c00d9,
+             0 0 0 #9200ff;
     }
     .imgbox{
         margin-top: -20px;

@@ -209,12 +209,12 @@ box-shadow:  15px 15px 30px #6c00d9,
 }
 .imgbox{
     position: relative;
-    width: 90%;
-    height: 90%;
+    width: 95%;
+    height: 95%;
 }
 .imgbox img{
     position: relative;
-    height: 90%;
+    height: 95%;
      width: 115%;
   
     top: 10px;
